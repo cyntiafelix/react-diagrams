@@ -5,7 +5,7 @@ import { DiagramEngine } from '../../DiagramEngine';
 import { ListenerHandle, Toolkit } from '@projectstorm/react-canvas-core';
 
 export interface PortProps {
-	port: PortModel;
+	port?: PortModel;
 	engine: DiagramEngine;
 	className?;
 	style?;
